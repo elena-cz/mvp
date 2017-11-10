@@ -4,10 +4,10 @@
  * Module dependencies.
  */
 
-var app = require('../app');
+var app = require('./app');
 var debug = require('debug')('hrsf83-mvp:server');
 var http = require('http');
-
+var database = require('./database');
 /**
  * Get port from environment and store in Express.
  */
