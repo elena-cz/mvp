@@ -1,0 +1,284 @@
+ {
+  "A": {
+    "character": "A",
+    "next": "B",
+    "code": "&#9679; &#9644;",
+    "phrases": [
+      "al-FA,",
+      "al-THOUGH,",
+      "a-GAIN,",
+      "a-JAR",
+      "a-PART"
+    ]
+  },
+  "B": {
+      "character": "B",
+      "next": "C",
+      "code": "&#9644; &#9679; &#9679; &#9679;",
+      "phrases": [
+        "BE a good boy,",
+        "BOB is the man",
+        "BOOT to the head"     
+       ]
+  },
+  "C": {
+      "character": "C",
+      "next": "D",
+      "code": "&#9644; &#9679; &#9644; &#9679;",
+      "phrases": [
+        "CO-ca CO-la",
+        "CHAR-lie's AN-gels",
+        "COO-kie CLI-cker",
+        "CHAR-lie CHAR-lie"
+      ]
+  },
+  "D": {
+      "character": "D",
+      "next": "E",
+      "code": "",
+      "phrases": [
+        "DOG did it,",
+        "DOCK work-er",
+        "NEW or-leans",
+        "DRAC-u-la"
+      ]
+  },
+  "E": {
+      "character": "E",
+      "next": "F",
+      "code": "",
+      "phrases": [
+        "eh?",
+        "hey!"
+      ]
+  },
+  "F": {
+      "character": "F",
+      "next": "G",
+      "code": "",
+      "phrases": [
+         "did i FAIL it?,",
+         "get a HAIR-cut",
+         "for the FAIR-est",
+         "did she LIKE it",
+         "fe-ne-STRA-tion",
+         "did it HURT you"
+      ]
+  },
+  "G": {
+      "character": "G",
+      "next": "H",
+      "code": "",
+      "phrases": [
+        "HOLE IN one!,",
+        "GOO-GOL-plex",
+        "GOO-GLE-ad",
+        "GOOD GRAV-y",
+        "GOD LOVES it"
+      ]
+  },
+  "H": {
+      "character": "H",
+      "next": "I",
+      "code": "",
+      "phrases": [
+        "hitting the hip,",
+        "ho-li-day-inn",
+        "hip-pi-ty hop"
+      ]
+  },
+  "I": {
+      "character": "I",
+      "next": "J",
+      "code": "",
+      "phrases": [
+        "id it,",
+        "dig-It,",
+        "bom-bay", 
+        "i-bid"
+      ]
+  },
+  "J": {
+      "character": "J",
+      "next": "K",
+      "code": "",
+      "phrases": [
+        "In JAWS JAWS JAWS,",
+        "the-JU-LIE JAY,",
+        "he's-J-JONAH-JAMESON,",
+        "where-FORE ART THOU?",
+        "i WANT YOU, JONES"
+      ]
+  },
+  "K": {
+      "character": "K",
+      "next": "L",
+      "code": "",
+      "phrases": [
+        "KAN-dy KID (candy kid),",
+        "KICK the CAN,",
+        "POUND for POUND",
+        "KANG-a-ROO"
+      ]
+  },
+  "L": {
+      "character": "L",
+      "next": "M",
+      "code": "",
+      "phrases": [
+        "a LIGHT is lit,",
+        "to 'ELL with it!,",
+        "he LOST his lid,",
+        "li-MA pe-ru",
+        "li-NO-le-um"
+      ]
+  },
+  "M": {
+      "character": "M",
+      "next": "N",
+      "code": "",
+      "phrases": [
+        "MMMM-MMMM,",
+        "MA-MA, LIKE MIKE",
+        "MORE MILK!"
+      ]
+  },
+  "N": {
+      "character": "N",
+      "next": "O",
+      "code": "",
+      "phrases": [
+        "NI-gel,",
+        "NA-vy, NAZ-i,",
+        "NOO-gie, AU-tumn",
+        "NU-dist"
+      ]
+  },
+  "O": {
+      "character": "O",
+      "next": "P",
+      "code": "",
+      "phrases": [
+        "O-RE-O,",
+        "ONE OF US,",
+        "HO HO HO,",
+        "SUN-NY-DAY",
+        "OH! MY! GOD!"
+      ]
+  },
+  "P": {
+      "character": "P",
+      "next": "Q",
+      "code": "",
+      "phrases": [
+        "a PIZ-ZA pie,",
+        "pa-RADE PA-nel,",
+        "of DOC-TOR good",
+        "did POP POP it"
+      ]
+  },
+  "Q": {
+      "character": "Q",
+      "next": "R",
+      "code": "",
+      "phrases": [
+        "QUEUE OV-er HERE,",
+        "HERE COMES the BRIDE (queen),",
+        "QUEEN’s WED-ding DAY",
+        "GOD SAVE the QUEEN"
+      ]
+  },
+  "R": {
+      "character": "R",
+      "next": "S",
+      "code": "",
+      "phrases": [
+        "ro-TA-tion,",
+        "ro-MER-o",
+        "a RABB-it",
+        "Br're RABB-it"
+      ]
+  },
+  "S": {
+      "character": "S",
+      "next": "T",
+      "code": "",
+      "phrases": [
+        "i-si-si,",
+        "ts-ts-ts",
+        "ne-va-da"
+      ]
+  },
+  "T": {
+      "character": "T",
+      "next": "U",
+      "code": "",
+      "phrases": [
+        "TREE",
+        "TALL"
+      ]
+  },
+  "U": {
+      "character": "U",
+      "next": "V",
+      "code": "",
+      "phrases": [
+        "gid-dy UP,",
+        "u-ni-FORM",
+        "un-der WHERE?!",
+        "kiss a EWE"
+      ]
+  },
+  "V": {
+      "character": "V",
+      "next": "W",
+      "code": "",
+      "phrases": [
+        "Beet-ho-ven's FIFTH (V'th)",
+        "vic-tor-y VEE",
+        "vee-vee-vee VA"
+      ]
+  },
+  "W": {
+      "character": "W",
+      "next": "X",
+      "code": "",
+      "phrases": [
+        "the WORLD' WAR ",
+        "with WHITE WHALE ",
+        "mo WA WA"
+      ]
+  },
+  "X": {
+      "character": "X",
+      "next": "Y",
+      "code": "",
+      "phrases": [
+        "X marks the SPOT,",
+        "CROSS at the DOOR,",
+        "ON-ly the BONES",
+        "EX-tra ex-PENSE"
+      ]
+  },
+  "Y": {
+      "character": "Y",
+      "next": "Z",
+      "code": "",
+      "phrases": [
+        "WHY did I DIE?,",
+        "JACK and CO-KE,",
+        "ON a PO-NY",
+        "YEL-low YO-YO"
+      ]
+  },
+  "Z": {
+      "character": "Z",
+      "next": null,
+      "code": "",
+      "phrases": [
+        "WSA ZSA did it,",
+        "SHA-KA zu-lu",
+        "ZINC ZOO-keep-er"
+      ]
+  }
+}
