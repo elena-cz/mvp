@@ -1,0 +1,22 @@
+{
+  "name": "hrsf83-mvp",
+  "version": "1.0.0",
+  "description": "Learn Morse Code app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elena-cz/hrsf83-mvp.git"
+  },
+  "author": "Elena Czubiak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elena-cz/hrsf83-mvp/issues"
+  },
+  "homepage": "https://github.com/elena-cz/hrsf83-mvp#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}

@@ -19,26 +19,44 @@ Once the project moves into development, the press release can be used as a touc
 ## Heading ##
   > Name the product in a way the reader (i.e. your target customers) will understand.
 
+  > Learn Morse Code
+
 ## Sub-Heading ##
   > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+
+  > Learn quickly with personalized flash cards
 
 ## Summary ##
   > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
 
+  > Whether you need to send an SOS or share a new fun fact about yourself, you can learn Morse code in a couple hours. Our app let's you choose phrases to help remember each letter. Then you can quiz yourself with your personalized flash cards.
+
 ## Problem ##
   > Describe the problem your product solves.
+
+  > Most Morse code learning websites don't let you choose or write your own phrases and there are limited options available for quizing yourself.
 
 ## Solution ##
   > Describe how your product elegantly solves the problem.
 
+  > For each letter, you can choose a phrase like "KICK the CAN" for the letter K \( \_ . \_\) or write your own. Then our app generates flash cards based on your answers.
+
 ## Quote from You ##
   > A quote from a spokesperson in your company.
+
+  > My grandpa is a ham radio enthusiast so my mom decided to learn Morse code. My mom and I discovered that learning Morse code is fun and quick. This app is for my mom and grandpa.
 
 ## How to Get Started ##
   > Describe how easy it is to get started.
 
+  > Open the app and start choosing phrases that you'll be the most likely remember for each letter. Then quiz yourself with flash cards.
+
 ## Customer Quote ##
   > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
 
+  > "While you might not find any particular use for Morse code in your daily life, learning Morse is a fun and engaging hobby you can share with gramps and an interesting man skill to possess."
+
 ## Closing and Call to Action ##
   > Wrap it up and give pointers where the reader should go next.
+
+  > Start learning a classic communication tool today.
