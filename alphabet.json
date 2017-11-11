@@ -1,10 +1,8 @@
-
-[
  {
   "A": {
     "character": "A",
     "next": "B",
-    "code": "",
+    "code": "&#9679; &#x25AC;",
     "phrases": [
       "al-FA,",
       "al-THOUGH,",
@@ -284,4 +282,3 @@
       ]
   }
 }
-]

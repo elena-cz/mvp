@@ -7,19 +7,13 @@ angular.module('App')
     next: '<',
     code: '<',
     phrases: '<',
-    onClick: '<'
+    nextClick: '<',
+    phraseClick: '<'
 
   },
 
   controller: function() {
 
-
-    console.log(this.onClick);
-
-    // this.handleClick = function(char) {
-    //   console.log('handling click');
-    //   this.onClick(char);
-    // };
 
 },
 

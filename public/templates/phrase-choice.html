@@ -1,0 +1,12 @@
+<label ng-click="$ctrl.onClick($ctrl.phrase)" >
+    <input  type="radio" 
+            ng-model="$ctrl.selectedPhrase"
+            value="$ctrl.phrase"
+            name="phrase">
+    {{ $ctrl.phrase }}
+</label><br/>
+<!--   <input  type="radio" 
+          ng-click="$ctrl.phraseClick(phrase)"
+          ng-repeat="phrase in $ctrl.phrases"
+          value="test"
+  > -->

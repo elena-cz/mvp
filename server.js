@@ -22,6 +22,7 @@ db.once('open', function() {
   app.use(bodyParser.urlencoded({'extended':'true'}));            // parse application/x-www-form-urlencoded
   app.use(bodyParser.json());                                     // parse application/json
   app.use(bodyParser.json({ type: 'application/vnd.api+json' })); // parse application/vnd.api+json as json
+  app.use(express.static('public'));                              // Serve static files
   // app.use(methodOverride()); // Don't know what this does yet
 
 // Define mongoose models
@@ -72,9 +73,9 @@ app.get('/characters', function(req, res) {
 
 // Route for frontend
 
-app.get('*', function(req, res) {
-  res.sendfile('./public/index.html');
-});
+// app.get('/', function(req, res) {
+//   res.sendfile('./public/index.html');
+// });
 
 
 

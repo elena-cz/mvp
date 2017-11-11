@@ -1,9 +1,11 @@
 <h2>{{ $ctrl.current }}</h2>
 
 <p>{{ $ctrl.code }}</p>
-<p ng-click="$ctrl.onClick($ctrl.next)">{{ $ctrl.next }}</p>
+<p ng-click="$ctrl.nextClick($ctrl.next)">{{ $ctrl.next }}</p>
 
-<ul>
-  <li ng-repeat="phrase in $ctrl.phrases"
-  >{{phrase}}</li>
-</ul>
+<phrase-choice ng-repeat="phrase in $ctrl.phrases" 
+               phrase="phrase"
+               on-click="$ctrl.phraseClick">                 
+</phrase-choice>
+
+  
