@@ -17,7 +17,7 @@ angular.module('App')
       this.currentChar = char;
     };
 
-    this.updatePhrase = (phrase) => {
+    this.updatePhrase = ($event, phrase) => {
       this.selectedPhrase = phrase;
       console.log('phrase update to', this.selectedPhrase);
     };

@@ -7,8 +7,10 @@ angular.module('App')
   },
 
   controller: function() {
-    this.customPhrase = 'Write your own';
+    this.customPhrase = '';
   },
+
+  templateUrl: './templates/custom-phrase-choice.html'
 
 
 });
