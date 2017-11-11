@@ -1,8 +1,19 @@
-<phrase-chooser-card 
-  current="$ctrl.currentChar"
-  next="$ctrl.characters[$ctrl.currentChar].next"
-  code="$ctrl.characters[$ctrl.currentChar].code"
-  phrases="$ctrl.characters[$ctrl.currentChar].phrases"
-  next-click="$ctrl.updateCurrentChar"
-  phrase-click="$ctrl.updatePhrase"
-></phrase-chooser-card>
+<character-info 
+    character="$ctrl.currentChar"
+    code="$ctrl.characters[$ctrl.currentChar].code"
+></character-info>
+
+<phrase-choice 
+    ng-repeat="phrase in $ctrl.characters[$ctrl.currentChar].phrases" 
+    phrase="phrase"
+    on-click="$ctrl.updatePhrase"
+></phrase-choice>
+
+<custom-phrase-choice
+    on-keypress="$ctrl.updatePhrase"
+></custom-phrase-choice>
+
+<next-phrase-button
+    next="$ctrl.characters[$ctrl.currentChar].next"
+    next-click="$ctrl.updateCurrentChar"
+></next-phrase-button>
