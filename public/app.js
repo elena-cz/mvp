@@ -2,8 +2,6 @@
 angular.module('App', [])
 
 .controller('AppCtrl', function(Characters) {
-  
-  this.characters = {};
 
   this.charactersResults = (data) => {
     console.log('data in charactersResults', data);
