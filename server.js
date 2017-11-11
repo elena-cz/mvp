@@ -24,8 +24,63 @@ db.once('open', function() {
   app.use(bodyParser.json({ type: 'application/vnd.api+json' })); // parse application/vnd.api+json as json
   // app.use(methodOverride()); // Don't know what this does yet
 
+// Define mongoose models
 
-  // start app with node
+var UserPrefs = mongoose.model('UserPrefs', {
+  username: String,
+  a: String
+});
+
+
+// API Routes
+
+app.get('/userprefs', function(req, res) {
+
+  UserPrefs.find(function(err, prefs) {
+
+    if (err) {
+      res.send(err);
+    }
+
+    res.json(prefs);
+
+  });
+
+});
+
+app.post('/userprefs', function(req, res) {
+
+  UserPrefs.findOneAndUpdate(
+    { username: req.body.username},
+    { username: req.body.username, 
+      a: req.body.res },
+    { upsert: true },
+    function(err, userpref) {
+      if (err) {
+        res.send(err);
+      }
+    });
+});
+
+app.get('/characters', function(req, res) {
+
+  res.sendfile('alphabet.json');
+
+});
+
+
+
+// Route for frontend
+
+app.get('*', function(req, res) {
+  res.sendfile('./public/index.html');
+});
+
+
+
+
+
+// start app with node
 
   app.listen(8080);
   console.log("App listening on port 8080");
