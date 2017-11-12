@@ -9,7 +9,7 @@ angular.module('App')
   },
 
   controller: function(Characters) {
-    this.username = 'elena-cz';
+    this.username = 'joe';
 
     this.currentChar = "A";
     this.selectedPhrase = '';

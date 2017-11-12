@@ -11,3 +11,34 @@ h2 {
   font-family: 'Roboto Slab', serif;
   color: #CDDC39;
 }
+
+.card {
+  width: 90%;
+  height: 300px;
+  margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.characterInfo {
+  box-sizing: border-box;
+  text-align: center;
+  width: 30%;
+  height: 100%;
+  padding: 10px;
+  float: left;
+  background: #607D8B;
+}
+
+.characterInfo h2 {
+  vertical-align: middle;
+  color: white;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.characterInfo p {
+  color: white;
+  font-size: 30px;
+  line-height: 20px;
+}
