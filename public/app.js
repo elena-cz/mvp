@@ -1,7 +1,9 @@
 // Create Angular module
-angular.module('App', [])
+angular.module('App', ['ngSanitize'])
 
 .controller('AppCtrl', function(Characters) {
+
+  this.username = 'elena';
 
   this.charactersResults = (data) => {
     console.log('data in charactersResults', data);
