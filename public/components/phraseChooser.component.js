@@ -8,13 +8,17 @@ angular.module('App')
 
   },
 
-  controller: function() {
+  controller: function(Characters) {
+    this.username = 'elena-cz';
 
     this.currentChar = "A";
     this.selectedPhrase = '';
     
-    this.updateCurrentChar = (char) => {
+    this.saveAndNext = (char) => {
+      Characters.savePhrase(this.username, this.currentChar, this.selectedPhrase);
       this.currentChar = char;
+      this.selectedPhrase = '';
+
     };
 
     this.updatePhrase = ($event, phrase) => {
