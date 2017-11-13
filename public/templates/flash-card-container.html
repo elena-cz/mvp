@@ -1,0 +1,13 @@
+<div class="card"
+      style="height:200px;width:400px">
+
+  <flash-card
+    char="$ctrl.currentChar"
+    code="$ctrl.characters[$ctrl.currentChar].code"
+    phrase="$ctrl.userPrefs.letters[$ctrl.currentChar.toLowerCase()]"
+    showing-answer="$ctrl.showingAnswer"
+    show-answer="$ctrl.showAnswer"
+    get-next="$ctrl.getNextChar"
+  ></flash-card>
+
+</div>

@@ -1,9 +1,31 @@
+<!-- <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect">
 <input type="radio" name="phrase" >
 <input 
     type="text"
     ng-model="$ctrl.customPhrase"
     ng-keyup="$ctrl.onKeypress($event, $ctrl.customPhrase)" 
     placeholder="Write your own"
+
 /><br/>
+</label>
+ -->
 
 
+<div class="phrase">
+  <input 
+      name="phrase" 
+      type="radio"
+      ng-model="$ctrl.selectedPhrase"
+      value="$ctrl.phrase"
+      id="$ctrl.phrase"
+/> 
+<label for="$ctrl.phrase">
+<input 
+    type="text"
+    ng-model="$ctrl.customPhrase"
+    ng-keyup="$ctrl.onKeypress($event, $ctrl.customPhrase)" 
+    placeholder="Write your own"
+    for="$ctrl.phrase"
+/>
+</label>
+</div>

@@ -1,7 +1,10 @@
-<label ng-click="$ctrl.onClick($event, $ctrl.phrase)" >
-    <input  type="radio" 
-            ng-model="$ctrl.selectedPhrase"
-            value="$ctrl.phrase"
-            name="phrase">
-    {{ $ctrl.phrase }}
-</label><br/>
+<p ng-click="$ctrl.onClick($event, $ctrl.phrase)">
+  <input 
+      name="phrase" 
+      type="radio"
+      ng-model="$ctrl.selectedPhrase"
+      value="$ctrl.phrase"
+      id="$ctrl.phrase"
+/>
+  <label for="$ctrl.phrase">{{ $ctrl.phrase }}</label>
+</p>

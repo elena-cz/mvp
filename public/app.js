@@ -4,15 +4,24 @@ angular.module('App', ['ngSanitize'])
 .controller('AppCtrl', function(Characters) {
 
   this.username = 'elena';
+  this.characters = null;
+  this.userPrefs = null;  
+  this.savedLetters = [];
+
 
   this.charactersResults = (data) => {
-    console.log('data in charactersResults', data);
     this.characters = data;
-  }
+  };
 
-  console.log('In app controller');
+  this.userPrefsResults = (data) => {
+    this.userPrefs = data;
+    this.savedLetters = Object.keys(this.userPrefs.letters).map((letter) => letter.toUpperCase());
+  };
+
 
   Characters.getAll(this.charactersResults);
+  Characters.getUserPrefs(this.username, this.userPrefsResults);
+
 })
 
 .component('app', {

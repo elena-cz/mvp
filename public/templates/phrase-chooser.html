@@ -1,23 +1,35 @@
+<div>
 <div class="card">
 
-<character-info 
-    character="$ctrl.currentChar"
-    code="$ctrl.characters[$ctrl.currentChar].code"
-></character-info>
+  <character-info 
+      character="$ctrl.currentChar"
+      code="$ctrl.characters[$ctrl.currentChar].code"
+  ></character-info>
 
-<phrase-choice 
-    ng-repeat="phrase in $ctrl.characters[$ctrl.currentChar].phrases" 
-    phrase="phrase"
-    on-click="$ctrl.updatePhrase"
-></phrase-choice>
 
-<custom-phrase-choice
-    on-keypress="$ctrl.updatePhrase"
-></custom-phrase-choice>
+<div class="phraseChoooserDiv" style="padding-left:20px;display:inline-block;width:65%;">
+  <br />
+  <p>Choose a phrase to remember:</p>
+  <phrase-choice 
+      ng-repeat="phrase in $ctrl.characters[$ctrl.currentChar].phrases"
+      phrase="phrase"
+      on-click="$ctrl.updatePhrase"
+  ></phrase-choice>
 
-<next-phrase-button
-    next="$ctrl.characters[$ctrl.currentChar].next"
-    next-click="$ctrl.saveAndNext"
-></next-phrase-button>
+  <custom-phrase-choice
+      on-keypress="$ctrl.updatePhrase"
+      selected-phrase="$ctrl.selectedPhrase"
+  ></custom-phrase-choice>
 
 </div>
+
+</div>
+  <br />
+  <next-phrase-button
+    next="$ctrl.characters[$ctrl.currentChar].next"
+    next-click="$ctrl.saveAndNext"
+  ></next-phrase-button>
+
+
+</div>
+

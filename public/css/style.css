@@ -1,0 +1,52 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-family: 'Roboto Slab', serif;
+  color: #607D8B;
+}
+
+h2 {
+  font-family: 'Roboto Slab', serif;
+  color: #CDDC39;
+}
+
+.card {
+  width: 90%;
+  height: 300px;
+  margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-sizing: border-box;
+}
+
+.characterInfo {
+  text-align: center;
+  width: 30%;
+  height: 100%;
+  float: left;
+  background: #607D8B;
+}
+
+.characterInfo h2 {
+  vertical-align: middle;
+  color: white;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.characterInfo p {
+  color: white;
+  font-size: 30px;
+  line-height: 20px;
+}
+
+.phraseChoooser {
+  padding-left: 30px;
+  width: 100%;
+  height: 100%;
+}
+
+input[type:"radio"] {
+  
+}

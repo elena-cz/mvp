@@ -1,1 +1,14 @@
-<phrase-chooser characters="$ctrl.characters"></phrase-chooser>
+<div>
+  <phrase-chooser 
+      characters="$ctrl.characters"
+      username="$ctrl.username"
+      user-prefs="$ctrl.userPrefs"
+  ></phrase-chooser>
+
+
+  <flash-card-container
+    characters="$ctrl.characters"
+    user-prefs="$ctrl.userPrefs"
+    saved-letters="$ctrl.savedLetters"
+  ></flash-card-container>
+</div>

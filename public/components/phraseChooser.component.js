@@ -4,17 +4,21 @@ angular.module('App')
 .component('phraseChooser', {
 
   bindings: {
-    characters: '<'
+    characters: '<',
+    username: '<',
+    userPrefs: '<'
 
   },
 
   controller: function(Characters) {
-    this.username = 'joe';
 
     this.currentChar = "A";
     this.selectedPhrase = '';
     
     this.saveAndNext = (char) => {
+      if (this.selectedPhrase === '') {
+        this.selectedPhrase = this.characters[this.currentChar].phrases[0];
+      }
       Characters.savePhrase(this.username, this.currentChar, this.selectedPhrase);
       this.currentChar = char;
       this.selectedPhrase = '';
@@ -26,9 +30,6 @@ angular.module('App')
       console.log('phrase update to', this.selectedPhrase);
     };
 
-    this.savePhrase = () => {
-      // Go to helper that saves database
-    };
 
 },
 

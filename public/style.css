@@ -1,3 +1,4 @@
+
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -9,36 +10,57 @@ h1 {
 
 h2 {
   font-family: 'Roboto Slab', serif;
-  color: #CDDC39;
-}
-
-.card {
-  width: 90%;
-  height: 300px;
-  margin: auto;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-}
-
-.characterInfo {
-  box-sizing: border-box;
-  text-align: center;
-  width: 30%;
-  height: 100%;
-  padding: 10px;
-  float: left;
-  background: #607D8B;
-}
-
-.characterInfo h2 {
-  vertical-align: middle;
   color: white;
   font-size: 40px;
   line-height: 40px;
 }
 
-.characterInfo p {
+.card {
+  width: 70%;
+  height: 300px;
+  margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  box-sizing: border-box;
+}
+
+.phraseChoooserDiv {
+  padding: 40px;
+  color: blue;
+  flex-grow: 1;
+}
+
+.characterInfo {
+  vertical-align: middle;
+  text-align: center;
+  padding: 20px;
+  width: 25%;
+  background: #607D8B;
+}
+
+
+
+.characterInfoDiv h2 {
+  color: white;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.characterInfoDiv p {
   color: white;
   font-size: 30px;
   line-height: 20px;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
