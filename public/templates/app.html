@@ -1,8 +1,22 @@
 <div>
+  <button  
+      style="background-color:#CDDC39;
+      color:white;
+      border:none;
+      display:block;
+      font-size:18px;
+      width:280px;
+      margin-bottom:25px"
+      ng-click="$ctrl.toggleFlashCards()">
+
+  Flash Cards
+  </button>
+
   <phrase-chooser 
       characters="$ctrl.characters"
       username="$ctrl.username"
       user-prefs="$ctrl.userPrefs"
+      ng-show="!$ctrl.showingFlashCards"
   ></phrase-chooser>
 
 
@@ -10,5 +24,6 @@
     characters="$ctrl.characters"
     user-prefs="$ctrl.userPrefs"
     saved-letters="$ctrl.savedLetters"
+    ng-show="$ctrl.showingFlashCards"
   ></flash-card-container>
 </div>

@@ -7,6 +7,7 @@ angular.module('App', ['ngSanitize'])
   this.characters = null;
   this.userPrefs = null;  
   this.savedLetters = [];
+  this.showingFlashCards = false;
 
 
   this.charactersResults = (data) => {
@@ -17,6 +18,10 @@ angular.module('App', ['ngSanitize'])
     this.userPrefs = data;
     this.savedLetters = Object.keys(this.userPrefs.letters).map((letter) => letter.toUpperCase());
   };
+
+  this.toggleFlashCards = () => {
+    this.showingFlashCards = !this.showingFlashCards;
+  }
 
 
   Characters.getAll(this.charactersResults);
